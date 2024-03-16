@@ -1,4 +1,4 @@
-package com.example.todo.utils;
+package com.example.ordermanagement.utils;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -8,7 +8,7 @@ import java.time.LocalDate;
 
 public class JDBCUtils {
 
-    private static String jdbcURL = "jdbc:mysql://localhost:3306/to-do";
+    private static String jdbcURL = "jdbc:mysql://localhost:3306/order-management-system";
     private static String jdbcUsername = "root";
     private static String jdbcPassword = "";
 
