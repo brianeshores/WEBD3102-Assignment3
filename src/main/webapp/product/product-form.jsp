@@ -17,9 +17,9 @@
         <div class="form-wrapper">
             <h2><%=request.getAttribute("product") != null ? "Edit Product" : "Add New Product"%></h2>
             <form action="product" method="post" class="product-form">
-                <% com.example.ordermanagement.model.Product product = null;
+                <% com.example.budgetapp.model.Product product = null;
                     if (request.getAttribute("product") != null) {
-                        product = (com.example.ordermanagement.model.Product) request.getAttribute("product");
+                        product = (com.example.budgetapp.model.Product) request.getAttribute("product");
                 %>
                 <input type="hidden" name="product_id" value="<%=product.getProductId()%>" />
                 <% } %>

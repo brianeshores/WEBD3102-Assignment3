@@ -4,58 +4,14 @@
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
     <servlet>
-        <servlet-name>OrderController</servlet-name>
-        <servlet-class>com.example.ordermanagement.web.OrderController</servlet-class>
+        <servlet-name>DashboardServlet</servlet-name>
+        <servlet-class>com.example.budgetapp.web.DashboardServlet</servlet-class>
     </servlet>
-<!--    <servlet-mapping>-->
-<!--        <servlet-name>OrderController</servlet-name>-->
-<!--        <url-pattern>/list</url-pattern>-->
-<!--    </servlet-mapping>-->
     <servlet-mapping>
-        <servlet-name>OrderController</servlet-name>
-        <url-pattern>/insert</url-pattern>
+        <servlet-name>DashboardServlet</servlet-name>
+        <url-pattern>/dashboard</url-pattern>
     </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>OrderController</servlet-name>
-        <url-pattern>/edit</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>OrderController</servlet-name>
-        <url-pattern>/delete</url-pattern>
-    </servlet-mapping>
-
-    <!-- User Controller Servlet Definition -->
-    <servlet>
-        <servlet-name>UserController</servlet-name>
-        <servlet-class>com.example.ordermanagement.web.UserController</servlet-class>
-    </servlet>
-    <!-- Mapping for UserController -->
-    <servlet-mapping>
-        <servlet-name>UserController</servlet-name>
-        <url-pattern>/user</url-pattern>
-    </servlet-mapping>
-
-    <!-- Product Controller Servlet Definition -->
-    <servlet>
-        <servlet-name>ProductController</servlet-name>
-        <servlet-class>com.example.ordermanagement.web.ProductController</servlet-class>
-    </servlet>
-    <!-- Mapping for ProductController -->
-    <servlet-mapping>
-        <servlet-name>ProductController</servlet-name>
-        <url-pattern>/product</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>ProductController</servlet-name>
-        <url-pattern>/list</url-pattern>
-    </servlet-mapping>
-
-
-
-
-    <!-- Welcome File List -->
     <welcome-file-list>
-        <welcome-file>login/login.jsp</welcome-file>
+        <welcome-file>login/login.jsp</welcome-file> <!-- Adjust the welcome file as necessary -->
     </welcome-file-list>
 </web-app>

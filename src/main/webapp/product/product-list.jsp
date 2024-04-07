@@ -34,8 +34,8 @@
         </thead>
         <tbody>
         <%@ page import="java.util.List" %>
-        <%@ page import="com.example.ordermanagement.model.Product" %>
-        <%@ page import="com.example.ordermanagement.model.User" %>
+        <%@ page import="com.example.budgetapp.model.Product" %>
+        <%@ page import="com.example.budgetapp.model.User" %>
         <%
             List<Product> listProduct = (List<Product>) request.getAttribute("listProduct");
             for (Product product : listProduct) {

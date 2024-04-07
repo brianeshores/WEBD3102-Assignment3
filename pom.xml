@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>ordermanagement</artifactId>
+    <artifactId>budgetapp</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>ordermanagement</name>
+    <name>financial</name>
     <packaging>war</packaging>
 
     <properties>
