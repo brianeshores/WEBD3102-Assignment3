@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="budgetapp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/budgetapp_jar</output-path>
+    <root id="archive" name="budgetapp.jar">
+      <element id="module-output" name="budgetapp" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.21.9" />
+    </root>
+  </artifact>
+</component>

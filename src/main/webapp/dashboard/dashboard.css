@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f4f4f4; /* From transaction-list.css */
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    padding: 20px; /* Added padding for consistency */
+}
+
+.latest-transactions, .budgets {
+    flex: 1;
+    padding: 20px;
+    background: white; /* Background set to white for consistency */
+    margin: 10px; /* Add some margin between the sections */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Box shadow for depth */
+    overflow-y: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h3 {
+    color: #77BA99; /* Header color to match the transaction list */
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 2px;
+    padding: 2px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.progress {
+    background-color: #4CAF50;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: #EFF0D1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px; /* Margin added for spacing */
+}
+
+.btn:hover {
+    background-color: #77BA99;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .main-content {
+        flex-direction: column;
+    }
+}
